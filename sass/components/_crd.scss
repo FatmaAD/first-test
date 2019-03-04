@@ -1,0 +1,33 @@
+.crd {
+    // width: 100%;
+    // min-height: 20rem;
+    margin: 2rem;
+    border: 0.1rem solid $color-gray-light;
+    border-radius: 0.1rem;
+    // background-color:$color-white;
+    box-shadow: 0.3rem 0.3rem 0.5rem $color-gray-light;
+    // background-color: $color-primary-light;
+
+    &__img {
+        background-image: url(../images/ko3bl.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        margin: 2rem;
+        width: 100%
+    }
+    &__bdy{
+        margin: 2rem 1rem;
+    }
+    &__title {
+        color: $color-primary-darkest;
+        font-family: $font-secondary;
+        
+    }
+
+    &__txt {
+        color: $color-primary-dark;
+        font-size: $font-size-md;
+        font-family: $font-primary;
+    }
+}

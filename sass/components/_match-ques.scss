@@ -1,0 +1,29 @@
+.Mcontainer{
+    // width:100%;
+    // height:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    margin: 2rem 0;
+    border: 0.5rem  solid $color-secondary-dark;
+    border-radius: 3rem;
+    color: $color-secondary-dark;
+    
+    :link,:visited{
+    color: $color-secondary-dark;
+    }
+  
+// .match-ques{
+//     display: flex;
+//     flex-direction: row;
+// }
+
+  .match-ques{
+      padding-left:2rem;
+      display: flex;
+  }
+    .wid-100{
+        width: 100%;
+        
+        }
+    }

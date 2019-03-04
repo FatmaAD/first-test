@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Examination System</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav bar -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light" id="nb">
+                        <a class="navbar-brand" href="index.html">
+                            EXO
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link " href="index.html">
+                                        HOME
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="" role="button">
+                                        FEATURES
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="pricing.html" role="button">
+                                        PRICING
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="" role="button">
+                                        DEMO
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="" role="button">
+                                        CONTACT
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="./companies.html" role="button">
+                                        COMPANIES
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" role="button">
+                                        REGISTER
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html" role="button">
+                                        LOGIN <span><i class="fas fa-sign-in-alt"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- side menu -->
+    <div class="side-menu">
+        <a href="profile.html">
+            <div><i class="fas fa-user-circle"></i></div>
+            <div>Profile</div>
+        </a>
+        <a href="settings.html">
+            <div><i class="fas fa-cog"></i></div>
+            <div>Admin Settings</div>
+        </a>
+    </div>
+    <!-- Company Info Page -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="admin-page col-sm-4 col-md-3">
+                <!-- the page logo -->
+                <div class="admin-page__logo col-12">
+                </div>
+                <!-- the side list -->
+                <div class="admin-page__options">
+                    <ul>
+                        <li class="selected"><span><i class="fas fa-user-cog"></i></span> company info</li>
+                        <li><span><i class="fas fa-user-cog"></i></span> admin info</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> manage users</li>
+                        <li><span><i class="fas fa-book"></i></span> Exams</li>
+                        <li><span><i class="fas fa-question"></i></span> Exams Questions</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> Result</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the page container -->
+            <div class="admin-page__content col-sm-8 col-md-9">
+                <div class="admin-page__content--title">
+                    <span><i class="fas fa-edit"></i></span>
+                    <p>Company Details</p>
+                </div>
+                <div class="admin-page__content--body">
+                    <div class="container-fluid">
+                        <div class="row no-gutters  justify-content-center p-5">
+                            <div class="col-11 company-info">
+                                <div><label>Company Name:</label> Kaaboola</div>
+                                <div><label>Category:</label> Cats</div>
+                                <div><label>E-mail:</label> kaaboola-2otta@gmail.com</div>
+                                <div><label>Phone:</label> +20 227 494 643</div>
+                                <div><label>Address:</label> 3nd Sara fy el sha2a</div>
+                                <div><label>Premium Plan:</label> ma eshtaraktsh 3shan ana 2otta ya 3am</div>
+                                <div class="logo"><label>Logo:</label><img src="https://www.logoground.com/uploads/z3287112exam%20logo.jpg"
+                                        class="img img__circle--sm"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Admin Page -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="admin-page col-sm-4 col-md-3">
+                <!-- the page logo -->
+                <div class="admin-page__logo col-12">
+                </div>
+                <!-- the side list -->
+                <div class="admin-page__options">
+                    <ul>
+                        <li><span><i class="fas fa-user-cog"></i></span> company info</li>
+                        <li class="selected"><span><i class="fas fa-user-cog"></i></span> admin info</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> manage users</li>
+                        <li><span><i class="fas fa-book"></i></span> Exams</li>
+                        <li><span><i class="fas fa-question"></i></span> Exams Questions</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> Result</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the page container -->
+            <div class="admin-page__content col-sm-8 col-md-9">
+                <div class="admin-page__content--title">
+                    <span><i class="fas fa-edit"></i></span>
+                    <p>Manage Users</p>
+                </div>
+                <div class="admin-page__content--body">
+                    <!-- roles -->
+                    <div class="container-fluid">
+                        <div class="row no-gutters  justify-content-start admin">
+                            <div class="col-md-3 mt-2 ml-2">
+                                <ul class="admins">
+                                    <li>Aya Elnahas<span><i class="far fa-times-circle"></i></span></li>
+                                    <li>Dina Gamal<span><i class="far fa-times-circle"></i></span></li>
+                                    <li>Fatma Alaa<span><i class="far fa-times-circle"></i></span></li>
+                                    <li>Hasnaa Ayman<span><i class="far fa-times-circle"></i></span></li>
+                                    <li>Omar Zayed<span><i class="far fa-times-circle"></i></span></li>
+                                    <li>Sara Elsayed<span><i class="far fa-times-circle"></i></span></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-5 mt-2">
+                                <ul class="roles">
+                                    <li><i class="fas fa-user-cog"></i><i class="fas fa-book-open"></i><i class="fas fa-book-reader"></i><i
+                                            class="fas fa-chalkboard-teacher"></i><i class="fas fa-graduation-cap"></i><i
+                                            class="fas fa-award"></i></li>
+                                    <li><i class="fas fa-user-cog"></i><i class="fas fa-book-open"></i><i class="fas fa-book-reader"></i></li>
+                                    <li><i class="fas fa-user-cog"></i><i class="fas fa-book-open"></i><i class="fas fa-book-reader"></i></li>
+                                    <li><i class="fas fa-user-cog"></i><i class="fas fa-book-open"></i><i class="fas fa-book-reader"></i></li>
+                                    <li><i class="fas fa-book-open"></i><i class="fas fa-book-reader"></i></li>
+                                    <li><i class="fas fa-book-reader"></i><i class="fas fa-book-reader"></i><i class="fas fa-chalkboard-teacher"></i><i
+                                            class="fas fa-graduation-cap"></i><i class="fas fa-award"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2 mt-2 ml-auto">
+                                <button class="button button--md button--primary">Add New Role</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Add Role Page -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="admin-page col-sm-4 col-md-3">
+                <!-- the page logo -->
+                <div class="admin-page__logo col-12">
+                </div>
+                <!-- the side list -->
+                <div class="admin-page__options">
+                    <ul>
+                        <li><span><i class="fas fa-user-cog"></i></span> company info</li>
+                        <li><span><i class="fas fa-user-cog"></i></span> admin info</li>
+                        <li class="selected"><span><i class="fas fa-users-cog"></i></span> manage users</li>
+                        <li><span><i class="fas fa-book"></i></span> Exams</li>
+                        <li><span><i class="fas fa-question"></i></span> Exams Questions</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> Result</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the page container -->
+            <div class="admin-page__content col-sm-8 col-md-9">
+                <div class="admin-page__content--title">
+                    <span><i class="fas fa-edit"></i></span>
+                    <p>Manage Users</p>
+                </div>
+                <div class="admin-page__content--body">
+                    <!-- roles -->
+                    <div class="container-fluid">
+                        <div class="row no-gutters  justify-content-start admin align-items-center p-5">
+                            <div class="col-12 mb-3">
+                                <select class="p-2">
+                                    <option selected disabled>Select the person you want to add role to</option>
+                                    <option value="a">Aya</option>
+                                    <option value="d">Dina</option>
+                                    <option value="f">Fatma</option>
+                                    <option value="h">Hasnaa</option>
+                                    <option value="o">Omar</option>
+                                    <option value="s">Sara</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <div><input type="checkbox"> <label>System Admin</label></div>
+                                <div><input type="checkbox"> <label>Examiner</label></div>
+                                <div><input type="checkbox"> <label>Observer</label></div>
+                                <div><input type="checkbox"> <label>Examinee</label></div>
+                            </div>
+                            <div class="col-12 mt-5">
+                                <button class="button button--primary button--md">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- exam settings -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="admin-page col-sm-4 col-md-3">
+                <!-- the page logo -->
+                <div class="admin-page__logo col-12">
+                </div>
+                <!-- the side list -->
+                <div class="admin-page__options">
+                    <ul>
+                        <li><span><i class="fas fa-user-cog"></i></span> admin info</li>
+                        <li><span><i class="fas fa-book"></i></span> Exam</li>
+                        <li><span><i class="fas fa-question"></i></span> Build Exam</li>
+                        <li class="selected"><span><i class="fas fa-users-cog"></i></span> manage users</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the page container -->
+            <div class="admin-page__content col-sm-8 col-md-9">
+                <div class="admin-page__content--title">
+                    <span><i class="fas fa-edit"></i></span>
+                    <p>Manage Users</p>
+                </div>
+                <div class="admin-page__content--body">
+
+                    <!-- the exams list component  -->
+                    <div class="selected-option">
+                        <!-- the header tab exam list -->
+                        <div class="selected-option__tab">
+                            <ul>
+                                <li class="selected-option__tab__li active"><i class="fas fa-list-ul"></i> Exam List</li>
+                                <li class="selected-option__tab__li"><i class="fas fa-plus"></i> Add Exam</li>
+                            </ul>
+                        </div>
+                        <!-- the page details -->
+                        <div class="selected-option__body">
+
+                            <!-- searchBox -->
+                            <div class="selected-option__body__search">
+                                <label>search:</label>
+                                <input type="text" placeholder="search . . . "><br>
+                            </div>
+
+                            <!-- the grid showing page details -->
+                            <div class="row selected-option__body--grid">
+                                <div class="col-2">Category</div>
+                                <div class="col-2">Name</div>
+                                <div class="col-2">Created By</div>
+                                <div class="col-2">Date</div>
+                                <div class="col-1">Status</div>
+                                <div class="col-3">Options</div>
+                            </div>
+                            <div class="row selected-option__body--grid">
+                                <div class="col-2">
+                                    <select name="Categories">
+                                        <option value="">employees</option>
+                                        <option value="">company</option>
+                                        <option value="">students</option>
+                                        <option value="">kids</option>
+                                    </select>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" placeholder="the exam name ..">
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" placeholder="the name if the exam creator..">
+                                </div>
+                                <div class="col-2">
+                                    <input type="date">
+                                </div>
+                                <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <button class="button button--xs button--add"><i class="far fa-eye"></i> active</button>
+                                </div>
+                                <div class="col-3 d-flex align-items-center justify-content-around">
+                                    <button class="button button--xs button--delete"><i class="fas fa-trash-alt"></i>
+                                        Delete</button>
+                                    <button class="button button--xs button--edit"><i class="fas fa-wrench"></i> Update</button>
+                                    <button class="button button--xs button--view"><i class="fas fa-info-circle"></i>
+                                        View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Add exam Page -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="admin-page col-sm-4 col-md-3">
+                <!-- the page logo -->
+                <div class="admin-page__logo col-12">
+                </div>
+                <!-- the side list -->
+                <div class="admin-page__options">
+                    <ul>
+                        <li><span><i class="fas fa-user-cog"></i></span> company info</li>
+                        <li><span><i class="fas fa-user-cog"></i></span> admin info</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> manage users</li>
+                        <li class="selected"><span><i class="fas fa-book"></i></span> Exams</li>
+                        <li><span><i class="fas fa-question"></i></span> Exams Questions</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> Result</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the page container -->
+            <div class="admin-page__content col-sm-8 col-md-9">
+                <div class="admin-page__content--title">
+                    <span><i class="fas fa-edit"></i></span>
+                    <p>Exams</p>
+                </div>
+                <div class="admin-page__content--body">
+                    <div class="selected-option">
+                        <!-- the header tab exam list -->
+                        <div class="selected-option__tab">
+                            <ul>
+                                <li class="selected-option__tab__li"><i class="fas fa-list-ul"></i> Exam List</li>
+                                <li class="selected-option__tab__li  active"><i class="fas fa-plus"></i> Add Exam</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="selected-option__body--content">
+                        <label class="selected-option__body--content--label col-4"> Category Name</label>
+                        <input class="selected-option__body--content--input col-2" type="text"><br>
+                        <label class="selected-option__body--content--label col-4"> Exam Name</label>
+                        <input class="selected-option__body--content--input col-2" type="text"><br>
+                        <label class="selected-option__body--content--label col-4"> Exam DAte</label>
+                        <input class="selected-option__body--content--input col-2" type="datetime"><br>
+                        <label class="selected-option__body--content--label col-4"> Exam Duration</label>
+                        <input class="selected-option__body--content--input col-2" type="time"><br>
+                        <label class="selected-option__body--content--label col-4"> Passing perssentage </label>
+                        <input class="selected-option__body--content--input col-2" type="number" placeholder="70% .."><br><br>
+                        <!-- the radio buttons -->
+                        <label class="selected-option__body--content--label col-4"> Time Reduction allow if
+                            late log in </label>
+                        <input type="radio" name="mail">
+                        <label class="selected-option__body--content--label">yes</label>
+                        <input type="radio" name="mail">
+                        <label class="selected-option__body--content--label">No</label>
+                        <br>
+
+                        <label class="selected-option__body--content--label col-4"> Result on mail </label>
+                        <input type="radio" name="mail">
+                        <label class="selected-option__body--content--label">yes</label>
+                        <input type="radio" name="mail">
+                        <label class="selected-option__body--content--label">No</label>
+                        <br>
+
+                        <label class="selected-option__body--content--label col-4"> get the result sent by
+                            email for applicants </label>
+                        <input type="radio" name="mail">
+                        <label class="selected-option__body--content--label">yes</label>
+                        <input type="radio" name="mail">
+                        <label class="selected-option__body--content--label">No</label>
+                        <br>
+                        <div class="selected-option__body--content--btn">
+                            <button class="button button--primary button--sm">Build Exam</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Questions -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="admin-page col-sm-4 col-md-3">
+                <!-- the page logo -->
+                <div class="admin-page__logo col-12">
+                </div>
+                <!-- the side list -->
+                <div class="admin-page__options">
+                    <ul>
+                        <li><span><i class="fas fa-user-cog"></i></span> company info</li>
+                        <li><span><i class="fas fa-user-cog"></i></span> admin info</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> manage users</li>
+                        <li><span><i class="fas fa-book"></i></span> Exams</li>
+                        <li class="selected"><span><i class="fas fa-question"></i></span> Exams Questions</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> Result</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the page container -->
+            <div class="admin-page__content col-sm-8 col-md-9">
+                <div class="admin-page__content--title">
+                    <span><i class="fas fa-edit"></i></span>
+                    <p>Questions</p>
+                </div>
+                <div class="admin-page__content--body   pt-5 pb-5">
+
+                       <!--Start single answer option..................................................-->
+    <div class="container">
+            <div class="qcontainer">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <a href="#" class="addques icon--fxg icon--brsm wid-100"><i class="fas fa-plus icon--clsecondry--dark"></i>Add
+                            question</a>
+                    </div>
+    
+                    <div class="w-100 divider"></div>
+                    <div class="col">
+                        <input class="wid-100" type="number" name="qno" id="qno" placeholder="Qno">
+                    </div>
+                    <div class="col-11 col-sm-11">
+                        <input class="wid-100" type="text" name="q" id="q" placeholder="write your question">
+                    </div>
+                    <div class="w-100 divider"></div>
+                    <div class="col-10">
+                        <select required="required" class="wid-100">
+                            <option value="qoptions">Select answers option..</option>
+                            <option value="oneanswer">Examinee have to select only one answer</option>
+                            <option value="mtanswers">Examinee can select more than one answer </option>
+                            <option value="tf">True or False question</option>
+                        </select>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="icon--fsm icon--brsm"><i class="fas fa-plus icon--clsecondry--light"></i>Add
+                            answer</a>
+                    </div>
+                    <div class="w-100 divider"></div>
+                    <div class="col">
+                        <input class="ansno wid-100" type="number" name="ansno" id="">
+                    </div>
+                    <div class="col-11">
+                        <input type="radio" name="answer" id="">
+                        <input type="text" name="" id="" placeholder="write answer here">
+                    </div>
+                    <div class="w-100 divider"></div>
+                    <div class="col-12">
+                        <div class="correctanswer">
+                            <input class="wid-100" type="number" name="correctanswer" id="correctanswer" placeholder="write number of correct answer here">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End single answer option........................................................-->
+        <!--Start multiple answers option..................................................-->
+        <div class="container">
+            <div class="qcontainer">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <a href="#" class="addques icon--fxg icon--brsm wid-100"><i class="fas fa-plus icon--clsecondry--dark"></i>Add
+                            question</a>
+                    </div>
+    
+                    <div class="w-100 divider"></div>
+                    <div class="col">
+                        <input class="wid-100" type="number" name="qno" id="qno" placeholder="Qno">
+                    </div>
+                    <div class="col-11 col-sm-11">
+                        <input class="wid-100" type="text" name="q" id="q" placeholder="write your question">
+                    </div>
+                    <div class="w-100 divider"></div>
+                    <div class="col-10">
+                        <select required="required" class="wid-100">
+                            <option value="qoptions">Select answers option..</option>
+                            <option value="oneanswer">Examinee have to select only one answer</option>
+                            <option value="mtanswers">Examinee can select more than one answer </option>
+                            <option value="tf">True or False question</option>
+                        </select>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="icon--fsm icon--brsm"><i class="fas fa-plus icon--clsecondry--light"></i>Add
+                            answer</a>
+                    </div>
+                    <div class="w-100 divider"></div>
+                    <div class="col">
+                        <input class="ansno wid-100" type="number" name="ansno" id="">
+                    </div>
+                    <div class="col-11">
+                        <input type="checkbox" name="answer" id="">
+                        <input type="text" name="" id="" placeholder="write answer here">
+                    </div>
+                    <div class="w-100 divider"></div>
+                    <div class="col-12">
+                        <div class="correctanswer">
+                            <input class="wid-100" type="number" name="correctanswer" id="correctanswer" placeholder="write number of correct answer here">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End multiple answers option........................................................-->
+
+                    <!-- complete ques component -->
+                    <div class="container">
+                        <div class="ccontainer">
+                            <div class="row no-gutters ">
+
+                                <div class="w-100 divider"></div>
+                                <div class="col-1">
+                                    <input class="wid-100" type="number" name="comq" id="cq" placeholder="Q">
+                                </div>
+                                <div class="w-100">
+                                </div>
+                                <div class="col-md-8 col-sm-6">
+                                    <select required="required" class="wid-100">
+                                        <option value="a1">Select shape to ques..</option>
+                                        <option value="a2">a2)------------</option>
+                                        <option value="a3">a3)add options</option>
+                                        <option value="a4">a4)--------</option>
+                                    </select>
+                                    <div class="col-6 col-sm-12 m-2">
+                                        <input class="wid-100" type="text" name="q" id="Esq" placeholder="write your Answer">
+                                    </div>
+                                    <div class="warn">
+
+                                        <p> * please add your extra options comma seperated</p>
+                                    </div>
+                                </div>
+                                <button class="button button--primary button--md ml-auto">Add spaces</button>
+                            </div>
+                            <div class="row add-options ">
+                                <div class="col-8 col-sm-8">
+                                    <input class="wid-100" type="text" name="ans" id="cq" placeholder="write your question">
+                                </div>
+                                <button class="button button--primary button--md ml-auto">Add options</button>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Match-ques component -->
+                    <div class="container">
+                        <div class="Mcontainer">
+
+                            <div class="row no-gutters ">
+
+                                <div class="w-100 divider"></div>
+                                <div class="col-md-5 col-sm-6">
+
+                                    <input class="wid-100" type="text" name="matchq" id="msq" placeholder="write your question">
+                                </div>
+                                <div class="col-md-1 col-sm-6">
+                                    <ul>
+
+                                        <li>
+                                            <select class="wid-100">
+
+                                                <option value="a">a</option>
+                                                <option value="b">b</option>
+                                                <option value="c">c</option>
+                                                <option value="d">d</option>
+
+
+                                            </select>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="match-ques col-md-6 col-sm-6">
+                                    a)<input class="wid-100" type="text" name="q" id="msq-ans" placeholder="write your Answer">
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="row no-gutters">
+
+                                <div class="w-100 divider"></div>
+                                <div class="col-md-5 col-sm-6">
+                                    <input class="wid-100" type="text" name="q" id="Msq" placeholder="write your question">
+                                </div>
+                                <div class="col-md-1 col-sm-6">
+                                    <ul>
+
+                                        <li>
+                                            <select class="wid-100">
+
+                                                <option value="a">a</option>
+                                                <option value="b">b</option>
+                                                <option value="c">c</option>
+                                                <option value="d">d</option>
+
+
+                                            </select>
+
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="match-ques col-md-6 col-sm-6">
+                                    b)<input class="wid-100" type="text" name="q" id="msq-ans" placeholder="write your Answer">
+                                </div>
+                            </div>
+
+                            <div class="row no-gutters">
+
+                                <div class="w-100 divider"></div>
+                                <div class="col-md-5 col-sm-6">
+                                    <input class="wid-100" type="text" name="q" id="Msq" placeholder="write your question">
+                                </div>
+                                <div class="col-md-1 col-sm-6">
+                                    <ul>
+
+                                        <li>
+                                            <select class="wid-100">
+
+                                                <option value="a">a</option>
+                                                <option value="b">b</option>
+                                                <option value="c">c</option>
+                                                <option value="d">d</option>
+
+
+                                            </select>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="match-ques col-md-6 col-sm-6">
+                                    c)<input class="wid-100" type="text" name="q" id="msq-ans" placeholder="write your Answer">
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <!-- /////// -->
+
+                    <!-- Essay-ques componwnt -->
+                    <div class="container">
+                        <div class="Econtainer">
+                            <div class="row no-gutters">
+
+
+                                <div class="w-100 divider"></div>
+                                <div class="col">
+                                    <input class="wid-100" type="number" name="q" id="Eq" placeholder="Q">
+                                </div>
+                                <div class="col-11 col-sm-11">
+                                    <input class="wid-100" type="text" name="q" id="Esq" placeholder="write your question">
+                                </div>
+
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="w-100 divider"></div>
+                                <div class="col">
+                                    <span>ans</span>
+                                </div>
+                                <div class=" Essay-item col-11 col-sm-11">
+
+                                    <label for="ans-area"></label>
+                                    <textarea class="form-control" name="ans-area" id="ans-area" rows="3" placeholder="descrip.."></textarea>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Result -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="admin-page col-sm-4 col-md-3">
+                <!-- the page logo -->
+                <div class="admin-page__logo col-12">
+                </div>
+                <!-- the side list -->
+                <div class="admin-page__options">
+                    <ul>
+                        <li><span><i class="fas fa-user-cog"></i></span> company info</li>
+                        <li><span><i class="fas fa-user-cog"></i></span> admin info</li>
+                        <li><span><i class="fas fa-users-cog"></i></span> manage users</li>
+                        <li><span><i class="fas fa-book"></i></span> Exams</li>
+                        <li><span><i class="fas fa-question"></i></span> Exams Questions</li>
+                        <li class="selected"><span><i class="fas fa-users-cog"></i></span> Result</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the page container -->
+            <div class="admin-page__content col-sm-8 col-md-9">
+                <div class="admin-page__content--title">
+                    <span><i class="fas fa-edit"></i></span>
+                    <p>Result</p>
+                </div>
+                <div class="admin-page__content--body">
+                    <!-- roles -->
+                    <div class="container-fluid">
+                        <div class="row no-gutters  justify-content-start admin">
+                            <div class="col-md-3 mt-2 ml-2">
+                                <ul class="admins">
+                                    <li>Student First Name<span></li>
+                                    <li>Student Last Name<span></li>
+                                    <li>Exam Name<span></li>
+                                    <li>Total Questions<span></li>
+                                    <li>Full Score<span></li>
+                                    <li>User Score<span></li>
+                                    <li>Passing Score<span></li>
+                                    <li>Passing Status<span></li>
+                                    <li>Exam Date<span></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-5 mt-2">
+                                <ul class="result-data">
+                                    <li><span>Demo first name</span></li>
+                                    <li><span>Demo last name</span></li>
+                                    <li><span>Math</span></li>
+                                    <li><span>40</span></li>
+                                    <li><span>100</span></li>
+                                    <li><span>35</span></li>
+                                    <li><span>60</span></li>
+                                    <li><span>FAILED</span></li>
+                                    <li><span>1/2/2019</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row d-flex justify-content-around">
+                <div class=" col-sm-3 col-12">
+                    <div class="wraper">
+                        <h5 class="col_white pt2">Find us</h5>
+                        <!--headin5-->
+                        <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 alex 35 </p>
+                        <p><i class="fa fa-phone"></i> +20-01010101010 </p>
+                        <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+                    </div>
+                </div>
+
+                <div class=" col-sm-3 col-6 ">
+                    <div class="wraper">
+                        <h5 class="col_white pt2">Quick links</h5>
+                        <!--headin5-->
+                        <ul class="footer_ul">
+                            <li><a href="#">Image Rectoucing</a></li>
+                            <li><a href="#">Clipping Path</a></li>
+                            <li><a href="#">Hollow Man Montage</a></li>
+                            <li><a href="#">Ebay & Amazon</a></li>
+                            <li><a href="#">Hair Masking/Clipping</a></li>
+                            <li><a href="#">Image Cropping</a></li>
+                        </ul>
+                        <!--footer_ul ends here-->
+                    </div>
+                </div>
+
+
+                <div class=" col-sm-3 col-6">
+                    <div class="wraper">
+
+                        <h5 class="headin5 col_white pt2">Quick links</h5>
+                        <!--headin5-->
+                        <ul class="footer_ul">
+                            <li><a href="#">Remove Background</a></li>
+                            <li><a href="#">Shadows & Mirror Reflection</a></li>
+                            <li><a href="#">Logo Design</a></li>
+                            <li><a href="#">Vectorization</a></li>
+                            <li><a href="#">Hair Masking/Clipping</a></li>
+                            <li><a href="#">Image Cropping</a></li>
+                        </ul>
+                    </div>
+                    <!--footer_ul ends here-->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <ul class="footer__bottom--ul">
+                <li class="footer__bottom--li"><a href="#">Home</a></li>
+                <li class="footer__bottom--li"><a href="#">Features</a></li>
+                <li class="footer__bottom--li"><a href="#">Pricing</a></li>
+                <li class="footer__bottom--li"><a href="#">Demo</a></li>
+                <li class="footer__bottom--li"><a href="#">Contact</a></li>
+            </ul>
+            <!--foote_bottom_ul ends here-->
+            <p class="text-center">Copyright @2019 | Designed With by <a href="#">Kaa'bola</a></p>
+
+            <ul class="social_footer_ul">
+                <li><a class="icon--rounded icon--fsm icon--brsm" href="#"><i class="icon--clgray--light fab fa-facebook-f"></i></a></li>
+                <li><a class="icon--rounded icon--fsm icon--brsm" href="#"><i class="icon--clgray--light fab fa-twitter"></i></a></li>
+                <li><a class="icon--rounded icon--fsm icon--brsm" href="#"><i class="icon--clgray--light fab fa-linkedin-in"></i></a></li>
+                <li><a class="icon--rounded icon--fsm icon--brsm" href="#"><i class="icon--clgray--light fab fa-instagram"></i></a></li>
+            </ul>
+            <!--social_footer_ul ends here-->
+        </div>
+
+    </footer>
+</body>
+
+</html>

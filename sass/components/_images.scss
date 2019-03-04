@@ -1,0 +1,25 @@
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    
+    &__circle--md
+    {
+        width:14.8rem;
+        height:14.8rem;
+        border-radius: 50%;
+    }
+
+    &__circle--lg
+    {
+        width:18.8rem;
+        height:18.8rem;
+        border-radius: 50%;
+    }
+    &__circle--sm
+    {
+        width:10.8rem;
+        height:10.8rem;
+        border-radius: 50%;
+    }
+
+}

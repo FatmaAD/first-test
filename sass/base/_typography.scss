@@ -1,0 +1,245 @@
+/////////////////////////////////////////// font sizes////////////////////////////////
+.sz {
+    // &--xlg 
+    //     {
+    //         font-size: $font-size-xlarge;
+    //     }
+    &--lg {
+        font-size: $font-size-lg;
+    } // &--xm
+    //     {
+    //         font-size:$font-size-xmedium;
+    //     }
+    &--m {
+        font-size: $font-size-md;
+    }
+    &--sm {
+        font-size: $font-size-sm
+    } // &--xs
+    //     {
+    //        font-size:  $font-size-xsmall;
+    //     }
+    // &--xxs{
+    //     font-size: $font-size-xxsmall;
+    // }
+}
+
+/*////////////////////////////////////////// font colors////////////////////////////////
+.fcl {
+    &--primary {
+        &--light {
+            color: $color-primary-light;
+            &:visited {
+                color: $color-primary-light;
+            }
+        }
+        &--dark {
+            color: $color-primary-dark;
+            &:visited {
+                color: $color-primary-dark;
+            }
+        }
+        &--darker {
+            color: $color-primary-darker;
+            &:visited {
+                color: $color-primary-darker;
+            }
+        }
+        &--darkest {
+            color: $color-primary-darkest;
+            &:visited {
+                color: $color-primary-darkest;
+            }
+        }
+    }
+    &--secondary {
+        &--light {
+            color: $color-secondary-light;
+            &:visited {
+                color: $color-secondary-light;
+            }
+        }
+        &--dark {
+            color: $color-secondary-dark;
+            &:visited {
+                color: $color-secondary-dark;
+            }
+        }
+        &--darker {
+            color: $color-secondary-darker;
+            &:visited {
+                color: $color-secondary-darker;
+            }
+        }
+    }
+    &--tertiary {
+        &--light {
+            color: $color-tertiary-light;
+            &:visited {
+                color: $color-tertiary-light;
+            }
+        }
+        &--dark {
+            color: $color-tertiary-dark;
+            &:visited {
+                color: $color-tertiary-dark;
+            }
+        }
+        &--darker {
+            color: $color-tertiary-darker;
+            &:visited {
+                color: $color-tertiary-darker;
+            }
+        }
+    }
+    &--gray {
+        &--light {
+            color: $color-gray-light;
+            &:visited {
+                color: $color-gray-light;
+            }
+        }
+        &--dark {
+            color: $color-gray-dark;
+            &:visited {
+                color: $color-gray-dark;
+            }
+        }
+        &--darker {
+            color: $color-gray-darker;
+            &:visited {
+                color: $color-gray-darker;
+            }
+        }
+    }
+    &--white {
+        color: $color-white;
+        &:visited {
+            color: $color-white;
+        }
+    }
+    &--black {
+        color: $color-black;
+        &:visited {
+            color: $color-black;
+        }
+    }
+}
+///////////////////////////////////////////back-ground colors////////////////////////////////
+.bgcl{
+    &--primary {
+        &--light{
+            background-color: $color-primary-light;
+            &:visited{
+                background-color: $color-primary-light;           
+            }
+        }
+        &--dark{
+            background-color: $color-primary-dark;
+            &:visited{
+                background-color: $color-primary-dark;           
+            }
+        }
+        &--darker{
+            background-color: $color-primary-darker;
+            &:visited{
+                background-color: $color-primary-darker;           
+            }
+        }
+        &--darkest{
+            background-color: $color-primary-darkest;
+            &:visited{
+                background-color: $color-primary-darkest;           
+            }
+        }
+    }
+    &--secondary {
+        &--light{
+            background-color: $color-secondary-light;
+            &:visited{
+                background-color: $color-secondary-light;           
+            }
+        }
+        &--dark{
+            background-color: $color-secondary-dark;
+            &:visited{
+                background-color: $color-secondary-dark;           
+            }
+        }
+        &--darker{
+            background-color: $color-secondary-darker;
+            &:visited{
+                background-color: $color-secondary-darker;           
+            }
+        }
+    }
+    &--tertiary {
+        &--light{
+            background-color: $color-tertiary-light;
+            &:visited{
+                background-color: $color-tertiary-light;           
+            }
+        }
+        &--dark{
+            background-color: $color-tertiary-dark;
+            &:visited{
+                background-color: $color-tertiary-dark;           
+            }
+        }
+        &--darker{
+            background-color: $color-tertiary-darker;
+            &:visited{
+                background-color: $color-tertiary-darker;           
+            }
+        }
+    }
+    &--gray {
+        &--light{
+            background-color: $color-gray-light;
+            &:visited{
+                background-color: $color-gray-light;           
+            }
+        }
+        &--dark{
+            background-color: $color-gray-dark;
+            &:visited{
+                background-color: $color-gray-dark;           
+            }
+        }
+        &--darker{
+            background-color: $color-gray-darker;
+            &:visited{
+                background-color: $color-gray-darker;           
+            }
+        }
+    }
+    &--white{
+        background-color: $color-white;
+            &:visited{
+                background-color: $color-white;           
+            }
+    }
+    &--black{
+        background-color: $color-black;
+            &:visited{
+                background-color: $color-black;           
+            }
+    }
+}*/
+
+
+
+/////////////////////reset padding
+.no-padding
+{
+    padding: 0;
+}
+.no-margin
+{
+    margin: 0;
+}
+
+button
+{
+    text-transform: uppercase;
+}

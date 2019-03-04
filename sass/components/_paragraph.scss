@@ -1,0 +1,13 @@
+.paragraph{
+    margin: 3rem;
+    text-align: center;
+    &__head{
+        font:$font-heavy $font-size-lg $font-secondary;
+        color: $color-secondary-dark;
+        padding-bottom: 2rem;
+    }
+    &__body{
+        font:$font-light $font-size-md $font-secondary;
+        color: $color-black;
+    }
+}

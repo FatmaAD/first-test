@@ -1,0 +1,51 @@
+.selected-option{
+    color: $color-white;
+    &__tab{
+        background-color: $color-secondary-dark;
+        font:$font-light $font-size-md $font-secondary;
+        & ul{
+            padding: 1rem 0;
+        }
+        &__li{
+            padding: 1rem;
+            padding-left: 1.5rem;
+            display: inline;
+            i{
+                align-items: center;
+                font-size: $font-size-sm ;
+            }
+        }
+        .active{
+            background-color: $color-secondary-darker;
+        }
+    }
+    &__body{
+        //padding: 2rem;
+        &__search{
+            
+            padding: 1.7rem 3rem;
+            
+        }
+        &--grid{
+            &.row{
+                margin: 0;
+            }
+            div{
+                border: 1px solid $color-primary-light;
+                text-align: center;
+                //height: 4rem;
+                &.col-2{
+                    padding: 0;;
+                }
+                input, select{
+                    padding: 1rem;
+                    color:$color-white;
+                    width: 100%;
+                    height: 100%;
+                    border:none;
+                    background-color: $color-secondary-light;
+                }
+            }
+        }
+    }
+}

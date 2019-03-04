@@ -1,0 +1,27 @@
+.circle-component
+{
+    background-color: $color-gray-light;
+    padding: 3rem 0;
+    .img{
+        margin:0 auto;
+        text-align: center;
+    }
+    .img__circle_img{
+        margin-bottom: $font-size-sm;       
+    }
+    h2{
+        font-family: $font-primary;
+        font-size: $font-size-lg;
+        color:$color-black;
+        text-align: center;
+        margin:0 auto;
+    }
+    p {
+       font-family: $font-secondary;
+       font-size:$font-size-md;
+       padding-top: 2rem;
+       line-height: 2rem;
+       text-align: center;
+       margin: 0 auto;       
+   }
+}

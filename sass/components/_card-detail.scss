@@ -1,0 +1,114 @@
+.cards-container
+{
+  .my-card-detail
+  {
+    >.sticky-header
+    {
+      position: sticky;
+    }
+    display: flex;
+    flex-direction: column;
+    min-height: 116rem;
+    border:.5px solid;
+    background: #f8fffa;
+    color: $color-primary-dark;
+    font-size: $font-size-md;
+    font-weight:  $font-medium;
+    font-family: $font-secondary;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    margin-top: 15rem;
+  }
+  .sticky-header 
+  {
+    
+    font-family: $font-primary;
+    font-size: $font-size-md;
+    line-height: 4rem;
+    margin-top: 3rem;
+    position: sticky;
+    min-height: 4.7rem;
+    
+  }
+  .pricing
+  {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    
+    &--sup
+    {
+      font-size: $font-size-md;
+      font-family: $font-primary;
+    }
+    
+    &--span
+    {
+      font-size: $font-size-lg;
+      font-family: $font-primary;
+    }
+    
+    &--sup2
+    {
+      font-size: $font-size-md;
+      font-family: $font-primary;
+    }
+    
+    &--sub
+    {
+      font-size: $font-size-sm;
+      margin-left: -3rem;
+    }
+  }
+  
+  .title-header
+  {
+    background-color: #576f9e;
+    color: #f7f2f2;
+    min-height: 6rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    line-height: 3rem;
+    margin-left: -4rem;
+    align-content: center;
+    
+    &--first
+    {
+      margin-top: 1.6rem;
+    }
+  }
+  
+  .card-features-list
+  {
+    margin-left: -3rem;
+    margin-top: 2rem;
+    font-size: $font-size-sm;
+  }
+  .card-features-list li 
+  {
+    line-height: 3.5rem;
+    
+  }
+  li span
+  {
+    margin-right: 2rem;
+  }
+  
+  .footer
+  {
+    position: sticky;
+    margin-bottom: 5rem;
+  }
+  // .button
+  // {
+    
+  //   &--btn4
+  //   {
+  //     width: 27rem;
+  //     min-height: 4rem;
+  //     font-size: $font-size-md;
+  //     margin-top: 1rem;
+  //     margin-left: 4rem;
+  //     border-radius: .5rem;  
+  //   }
+  // }
+}

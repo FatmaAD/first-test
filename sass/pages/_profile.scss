@@ -1,0 +1,52 @@
+.profile
+{
+    padding: 5rem 0;
+    height: 40rem;
+    > * 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    &__pic
+    {
+        justify-content: flex-start;
+        align-items: center;
+        h3
+        {
+            margin-bottom: 2rem;
+            color: $color-primary-darker;
+            font:  $font-heavy $font-size-lg $font-primary;
+        }
+        img 
+        {
+            margin-bottom: 1rem;
+        }
+    }
+    &__info
+    {
+        > *
+        {
+            margin-bottom: 1.2rem;
+            position: relative;
+            &::after
+            {
+                content: "Edit";
+                color: $color-secondary-light;
+                font-size: $font-size-sm;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                cursor: pointer;
+            }
+        }
+        justify-content: center;
+        color: $color-secondary-darker;
+        font:  $font-light $font-size-md $font-secondary;
+        label 
+        {
+            color: $color-primary-darker;
+            font:  $font-heavy $font-size-md $font-primary;
+            min-width: 11rem;
+        }
+    }
+}

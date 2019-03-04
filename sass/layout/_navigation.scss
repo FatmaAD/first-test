@@ -1,0 +1,54 @@
+.navbar-brand{
+    
+    font: $font-heavy $font-size-lg $font-secondary;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: $color-white;
+    padding: 0 0.5rem;
+    font: $font-heavy $font-size-md $font-primary;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: $color-primary-darker;
+}
+.navbar{
+    height: 6rem;
+    background-color: $color-primary-darkest;
+    // background-color: rgba($color: $color-gray-light, $alpha: 0.3)
+}
+.navbar
+{
+    .options
+    {
+        margin: 0 1rem;
+        position: relative;
+        i 
+        {
+            font-size: 2rem;
+            cursor: pointer;
+        }
+        &__menu 
+        {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            min-width: 70rem;
+            position: absolute;
+            right: 0;
+            top: 4rem;
+            z-index: 5;
+            background-color: $color-primary-darkest;
+            visibility: hidden;
+            .option 
+            {
+                color: $color-white;
+                margin: 1.5rem 0;
+                flex-basis: 33.3333%;
+                text-align: center;
+            }
+        }
+        &:hover  .options__menu
+        {
+            visibility: visible;
+        }
+    }
+}

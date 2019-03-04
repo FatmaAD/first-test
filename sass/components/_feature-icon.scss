@@ -1,0 +1,16 @@
+.feature-icon{
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    text-align: center;
+    width: 17rem;
+    i{
+        color: $color-gray-light;
+        margin-bottom: 0.5rem;
+    }
+    &__text{
+        font: $font-medium $font-size-lg $font-primary;
+        display: block;
+        width: 100%;
+    }
+}

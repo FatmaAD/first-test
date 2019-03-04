@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>POOL LIST</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav bar -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light" id="nb">
+                        <a class="navbar-brand" href="index.html">
+                            EXO
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" role="button">
+                                        HOME
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" role="button">
+                                        FEATURES
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" role="button">
+                                        PRICING
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" role="button">
+                                        DEMO
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" role="button">
+                                        CONTACT
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" role="button">
+                                        REGISTER
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" role="button">
+                                        LOGIN <span><i class="fas fa-sign-in-alt"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--question card-->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="question-card">
+                    <div class="question-card__body">
+                        <div class="question-card__body__field">Title: </div>
+                        <div class="question-card__body__field">Category: </div>
+                        <div class="question-card__body__field">No. Of Questions: </div>
+                    </div>
+                    <div class="question-card__crud-operation">
+                        <div class="question-card__crud-operation__btn">
+                            <a href="#" class="far fa-heart"></a>
+                            <a href="#">Edit</a>
+                        </div>
+                        <div class="question-card__crud-operation__btn">
+                                <a href="#" class="far fa-heart"></a>
+                                <a href="#">Edit</a>
+                        </div>
+                        <div class="question-card__crud-operation__btn">
+                                <a href="#" class="far fa-heart"></a>
+                                <a href="#">Edit</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container  pt-5 pb-5">
+        <div class="row">
+            <div class="col-3 mt-2" style="border:1px solid rgb(185, 183, 183); background-color:rgb(181, 223, 236); height: 20rem">
+                <h1 class="p-2 ml-5" style="font-size:2rem;">Pool List</h1><br><br>
+                <input class="ml-3" type="text" placeholder="filter">
+                <div class="p-3">
+                    <ul>
+                        <li> <input type="checkbox"> Title</li><br>
+                        <li> <input type="checkbox"> Category</li><br>
+                        <li> <input type="checkbox"> Number Of Questions</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-8 ml-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card p-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Title: Advanced programming language</h5>
+                                <h5 class="card-title">Category: C#</h5>
+                                <h5 class="card-title mb-3">No. Of Questions: 20</h5>
+                                <a href="#" class="card-link far fa-edit"> edit</a>
+                                <a href="#" class="card-link far fa-eye"> preview</a>
+                                <a href="#" class="card-link far fa-trash-alt"> delete</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="card p-1 m-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Title: Advanced programming language</h5>
+                                    <h5 class="card-title">Category: C#</h5>
+                                    <h5 class="card-title mb-3">No. Of Questions: 20</h5>
+                                    <a href="#" class="card-link far fa-edit"> edit</a>
+                                    <a href="#" class="card-link far fa-eye"> preview</a>
+                                    <a href="#" class="card-link far fa-trash-alt"> delete</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                <div class="card p-1 m-2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title: Advanced programming language</h5>
+                                        <h5 class="card-title">Category: C#</h5>
+                                        <h5 class="card-title mb-3">No. Of Questions: 20</h5>
+                                        <a href="#" class="card-link far fa-edit"> edit</a>
+                                        <a href="#" class="card-link far fa-eye"> preview</a>
+                                        <a href="#" class="card-link far fa-trash-alt"> delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="card p-1 m-2">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Title: Advanced programming language</h5>
+                                            <h5 class="card-title">Category: C#</h5>
+                                            <h5 class="card-title mb-3">No. Of Questions: 20</h5>
+                                            <a href="#" class="card-link far fa-edit"> edit</a>
+                                            <a href="#" class="card-link far fa-eye"> preview</a>
+                                            <a href="#" class="card-link far fa-trash-alt"> delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card p-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Title: Advanced programming language</h5>
+                                <h5 class="card-title">Category: C#</h5>
+                                <h5 class="card-title mb-3">No. Of Questions: 20</h5>
+                                <a href="#" class="card-link far fa-edit"> edit</a>
+                                <a href="#" class="card-link far fa-eye"> preview</a>
+                                <a href="#" class="card-link far fa-trash-alt"> delete</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card p-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Title: Advanced programming language</h5>
+                                <h5 class="card-title">Category: C#</h5>
+                                <h5 class="card-title mb-3">No. Of Questions: 20</h5>
+                                <a href="#" class="card-link far fa-edit"> edit</a>
+                                <a href="#" class="card-link far fa-eye"> preview</a>
+                                <a href="#" class="card-link far fa-trash-alt"> delete</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card p-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Title: Advanced programming language</h5>
+                                <h5 class="card-title">Category: C#</h5>
+                                <h5 class="card-title mb-3">No. Of Questions: 20</h5>
+                                <a href="#" class="card-link far fa-edit"> edit</a>
+                                <a href="#" class="card-link far fa-eye"> preview</a>
+                                <a href="#" class="card-link far fa-trash-alt"> delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row d-flex justify-content-around">
+                <div class=" col-sm-3 col-12">
+                    <div class="wraper">
+                        <h5 class="col_white pt2">Find us</h5>
+                        <!--headin5-->
+                        <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 alex 35 </p>
+                        <p><i class="fa fa-phone"></i> +20-01010101010 </p>
+                        <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+                    </div>
+                </div>
+
+                <div class=" col-sm-3 col-6 ">
+                    <div class="wraper">
+                        <h5 class="col_white pt2">Quick links</h5>
+                        <!--headin5-->
+                        <ul class="footer_ul">
+                            <li><a href="#">Image Rectoucing</a></li>
+                            <li><a href="#">Clipping Path</a></li>
+                            <li><a href="#">Hollow Man Montage</a></li>
+                            <li><a href="#">Ebay & Amazon</a></li>
+                            <li><a href="#">Hair Masking/Clipping</a></li>
+                            <li><a href="#">Image Cropping</a></li>
+                        </ul>
+                        <!--footer_ul ends here-->
+                    </div>
+                </div>
+
+
+                <div class=" col-sm-3 col-6">
+                    <div class="wraper">
+
+                        <h5 class="headin5 col_white pt2">Quick links</h5>
+                        <!--headin5-->
+                        <ul class="footer_ul">
+                            <li><a href="#">Remove Background</a></li>
+                            <li><a href="#">Shadows & Mirror Reflection</a></li>
+                            <li><a href="#">Logo Design</a></li>
+                            <li><a href="#">Vectorization</a></li>
+                            <li><a href="#">Hair Masking/Clipping</a></li>
+                            <li><a href="#">Image Cropping</a></li>
+                        </ul>
+                    </div>
+                    <!--footer_ul ends here-->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <ul class="footer__bottom--ul">
+                <li class="footer__bottom--li"><a href="#">Home</a></li>
+                <li class="footer__bottom--li"><a href="#">Features</a></li>
+                <li class="footer__bottom--li"><a href="#">Pricing</a></li>
+                <li class="footer__bottom--li"><a href="#">Demo</a></li>
+                <li class="footer__bottom--li"><a href="#">Contact</a></li>
+            </ul>
+            <!--foote_bottom_ul ends here-->
+            <p class="text-center">Copyright @2019 | Designed With by <a href="#">Kaa'bola</a></p>
+
+            <ul class="social_footer_ul">
+                <li><a class="icon--rounded icon--fsm icon--brsm" href="#"><i
+                            class="icon--clgray--light fab fa-facebook-f"></i></a></li>
+                <li><a class="icon--rounded icon--fsm icon--brsm" href="#"><i
+                            class="icon--clgray--light fab fa-twitter"></i></a></li>
+                <li><a class="icon--rounded icon--fsm icon--brsm" href="#"><i
+                            class="icon--clgray--light fab fa-linkedin-in"></i></a></li>
+                <li><a class="icon--rounded icon--fsm icon--brsm" href="#"><i
+                            class="icon--clgray--light fab fa-instagram"></i></a></li>
+            </ul>
+            <!--social_footer_ul ends here-->
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

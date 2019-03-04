@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/xomo-basics/128/document-03-512.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Examination test</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row Qcontent">
+
+            <div class="col-sm-9 col-md-9 col-lg-9">
+                <div class="Qcontent__Qhead p-3">
+                    <p class="Qcontent__Qhead--type text-uppercase ">multiple choice</p>
+                    <input class="Qcontent__Qhead--input" placeholder="write question title here.." type="text">
+                    <button class="button button--primary button--sm">media</button>
+                </div>
+
+                <div class="Qcontent__body d-flex flex-wrap pt-4 m-2">
+                    <p class="Qcontent__body--note text-capitalize p-2">Please mark the right answer</p>
+
+                    <div class="Qcontent__body--answer-seqtion w-100">
+                        <input class="m-2" type="radio">
+                        <input class="Qcontent__body--answer-seqtion--input p-2" placeholder="write the answer option here.. " type="text">
+                        <button class="m-2 button button--add button--sm">Media</button>
+                        <button class="m-2 button button--delete button--sm">Delete</button>
+                    </div>
+
+                    <button class="m-5 button button--add button--md">add more option</button>
+
+                </div>
+            </div>
+
+            <div class="Qcontent__Qside-Options p-0 col-sm-3 col-md-3 col-lg-3">
+
+                <div class="Qcontent__Qside-Options__field">
+                    <label class="pt-2">given time</label>
+                    <input class="w-75" type="number" min="1" max="60">
+                </div>
+
+                <div class="Qcontent__Qside-Options__field">
+                    <label class="pt-2">answer type</label>
+                    <select class="w-75 p-2">
+                        <option> True/False </option>
+                        <option>Multiple answer</option>
+                        <option>single answer</option>
+                        <option>question</option>
+
+                    </select>
+                </div>
+
+                <div class="Qcontent__Qside-Options__field">
+                    <label class="pt-2">question Evaluation</label>
+                    <select class="w-75 p-2">
+                        <option>easy</option>
+                        <option>average</option>
+                        <option>hard</option>
+                    </select>
+                </div>
+
+                <div class="Qcontent__Qside-Options__field bordb-non">
+                    <label class="pt-2">category</label>
+                    <select class="w-75 p-2">
+                        <option>math</option>
+                        <option>history</option>
+                    </select>
+                </div>
+
+                <div class="Qcontent__Qside-Options--btns d-flex w-100 p-0 m-0">
+                    <button class="p-2 w-50 m-2 button button--delete button--sm">Cancel</button>
+                    <button class="p-2 w-50 m-2 button button--primary button--sm">Done</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

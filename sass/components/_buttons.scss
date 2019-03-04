@@ -1,0 +1,119 @@
+.button
+{
+    font-weight: $font-heavy;
+    font-family: $font-secondary;
+    color: $color-white;
+    padding: 1rem;
+    letter-spacing: 2px;
+    border: none;
+    flex-wrap: wrap;
+    cursor: pointer;
+    &--xs
+    {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.5rem;
+        height: 2rem;
+        border-radius: 0.2rem;
+    }
+    &--sm
+    {
+        font-size: $font-size-sm;
+        min-width: 6rem;
+        height: 3rem;
+        border-radius: 0.3rem;
+    }
+    &--md
+    {
+        font-size: $font-size-sm;
+        min-width: 8rem;
+        height: 4rem;
+        border-radius: 0.6rem;
+    }
+    &--lg
+    {
+        font-size: $font-size-lg;
+        min-width: 12rem;
+        height: 6rem;
+        border-radius: 0.9rem;
+    }
+    &--primary
+    {
+        background-color: $color-primary-light;
+        &:hover
+        {
+            background-color: darken($color: $color-primary-light, $amount: 20%);
+        }
+    }
+    &--secondary
+    {
+        background-color: $color-secondary-light;      
+        &:hover
+        {
+            background-color: darken($color: $color-secondary-light, $amount: 20%);
+        }  
+    }
+    &--tertiary
+    {
+        background-color: $color-tertiary-dark;    
+        &:hover
+        {
+            background-color: darken($color: $color-tertiary-dark, $amount: 20%);
+        }    
+    }
+    &--delete
+    {
+        background-color: #EE6B5A;
+        &:hover
+        {
+            background-color: darken($color: #EE6B5A, $amount: 20%);
+        } 
+    }
+    &--add
+    {
+        background-color: #9AC468;
+        &:hover
+        {
+            background-color: darken($color: #9AC468, $amount: 20%);
+        }
+    }
+    &--edit
+    {
+        background-color: #7F95B4;
+        &:hover
+        {
+            background-color: darken($color: #7F95B4, $amount: 20%);
+        }
+    }
+    &--view
+    {
+        background-color: #5DB3DF;
+        &:hover
+        {
+            background-color: darken($color: #5DB3DF, $amount: 20%);
+        }
+    }
+    // &--circular
+    // {
+    //     &--sm
+    //     {
+    //         border-radius: 50% 50%;
+    //         font-size: $font-size-sm;
+    //         width: 6rem;
+    //         height: 6rem;
+    //     }
+    //     &--md
+    //     {
+    //         border-radius: 50% 50%;
+    //         font-size: $font-size-md;
+    //         width: 12rem;
+    //         height: 12rem;
+    //     }
+    //     &--lg
+    //     {
+    //         border-radius: 50% 50%;
+    //         font-size: $font-size-lg;
+    //         width: 18rem;
+    //         height: 18rem;
+    //     }
+    // }
+}

@@ -1,0 +1,34 @@
+// div
+// {
+//     font: $font-medium $font-size-md $font-primary;
+// }
+///////////////////////////////////////////////Fonts
+//weights
+$font-light: 200;
+$font-medium: 400;
+$font-heavy: 700;
+//sizes
+$font-size-sm: 1rem;
+$font-size-md: 1.4rem;
+$font-size-lg: 2rem;
+$font-size-xl: 2.5rem;
+//families
+$font-primary: 'Lato', sans-serif;;
+$font-secondary:'Raleway', sans-serif;
+
+///////////////////////////////////////////////Colors
+$color-primary-light: rgb(123, 185, 255);
+$color-primary-dark: rgb(85, 128, 255);
+$color-primary-darker: rgb(87, 111, 158);
+$color-primary-darkest:rgb(32, 36, 49);
+$color-secondary-light: rgb(255, 138, 115);
+$color-secondary-dark: rgb(122, 35, 35);
+$color-secondary-darker: rgb(65, 18, 18);
+$color-tertiary-light:  rgb(88, 70, 140);
+$color-tertiary-dark: darken($color-tertiary-light, 30%);
+$color-tertiary-darker: darken($color-tertiary-light, 60%);
+$color-gray-light: rgb(170, 166, 166);
+$color-gray-dark: rgb(112, 110, 110);
+$color-gray-darker: rgb(82, 80, 80);
+$color-white: rgb(247, 242, 242);
+$color-black: black;

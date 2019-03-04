@@ -1,0 +1,19 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss css/style.css -w",
+    "open": "http-server -o"
+  },
+  "author": "OmarZayed",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}

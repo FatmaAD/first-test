@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+@import 'base/reset';
+@import 'base/base';
+
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+@import 'base/utilities';
+@import 'base/animation';
+@import 'base/typography';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/card-detail';
+@import 'components/crd';
+@import 'components/pagination';
+@import 'components/cards';
+@import 'components/circle-card';
+@import 'components/complete-ques';
+@import 'components/complexQ';
+@import 'components/essay-ques';
+@import 'components/exam-list';
+@import 'components/feature-card';
+@import 'components/feature-icon';
+@import 'components/icon';
+@import 'components/images';
+@import 'components/match-ques';
+@import 'components/mcq';
+@import 'components/paragraph';
+@import 'components/progress-bar';
+@import 'components/question-component';
+@import 'components/register-card';
+@import 'components/slider';
+
+@import 'pages/admin';
+@import 'pages/change-password';
+@import 'pages/companies';
+@import 'pages/exam-result';
+@import 'pages/home';
+@import 'pages/profile';

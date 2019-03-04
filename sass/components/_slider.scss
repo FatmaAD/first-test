@@ -1,0 +1,16 @@
+.carousel-caption {
+    margin-bottom: 20%;
+    .title{
+        font:$font-heavy $font-size-xl $font-primary;
+        text-shadow: 2px 2px $color-gray-dark; 
+    }
+    .p{
+        font:$font-heavy $font-size-lg $font-primary;
+        padding: .5rem;
+    }
+    button{
+        // position: absolute;
+        // left: 0px;
+        margin-top: 2rem;
+    }
+ } 

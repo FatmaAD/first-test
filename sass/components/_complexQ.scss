@@ -1,0 +1,80 @@
+.Qcontent{
+    // display: flex;
+    // flex-wrap: nowrap;
+    border:1px solid $color-gray-light;
+    box-shadow: 0px 1px 3px $color-gray-light;
+
+    &__Qhead{
+        width: 100%;
+        border-bottom: 1px solid $color-gray-light;
+        
+        &--type{
+            font: $font-medium $font-size-md $font-primary;
+            color: $color-primary-dark;
+        }
+        &--input{
+            width: 75%;
+            border-radius: .3rem;
+            border:1px solid $color-gray-light;
+            padding: .8rem;
+            box-shadow: 0px 1px 3px $color-gray-light;
+        }
+        button{
+            margin: 1rem;
+            width: 20%;
+        }
+    }
+
+    &__body{
+        
+        &--note{
+            width: 100%;
+            font: $font-medium $font-size-sm $font-primary;
+            color: $color-black;
+        }
+        &--answer-seqtion{
+            
+            &--input{
+                width: 70%;
+                border-radius: .3rem;
+                border:1px solid $color-gray-light;
+                box-shadow: 0px 1px 3px $color-gray-light;
+            }
+        }
+
+    }
+    &__Qside-Options{
+        width: 100%;
+        border:1px solid $color-gray-dark;
+        background-color: $color-gray-light;
+    &__field{
+        padding:1.2rem; 
+        border-bottom: 1px solid $color-gray-dark;
+        &.bordb-non{
+            border-bottom: none;
+        }
+        label{
+            width: 100%;
+            font: $font-light $font-size-md $font-primary;
+            text-transform: uppercase;
+            color: $color-primary-dark;
+            padding-bottom: .5rem;
+        }
+        input{
+            border-radius: .3rem;
+            border:1px solid $color-gray-light;
+            padding: .5rem;
+            box-shadow: 0px 1px 3px $color-gray-light;
+        }
+        select{
+            text-align: center;
+            border-radius: .3rem;
+        }
+        
+    }
+        &--btns{
+            background-color: $color-gray-dark;
+            cursor: pointer;
+        }
+    }
+}

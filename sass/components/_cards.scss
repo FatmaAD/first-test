@@ -1,0 +1,119 @@
+.cards-container
+{
+  .my-card
+  {
+    display: flex;
+    flex-direction: column;
+    min-height: 38.2rem;
+    border:3px solid;
+    border-bottom: none;
+    border-radius: .5rem;
+    background: #f8fffa;
+    color: $color-primary-dark;
+    font-size: $font-size-md;
+    font-weight:  $font-medium;
+    font-family: $font-secondary;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    &--sm
+    {
+      margin-top: 10rem;
+    }
+    
+    &--md
+    {
+      box-shadow: 0 0 16px 0 rgba(123,188,144,.6);
+      margin-top: 8rem;
+      min-height: 39.9rem;
+    }
+    
+    &--lg
+    {
+      margin-top: 6rem;
+      min-height: 42rem;
+    }
+    .header
+    {
+      font-family: $font-primary;
+      font-size: $font-size-lg;
+      line-height: 4rem;
+      padding-top:5rem;  
+      &--header2
+      {
+        padding-top: 1rem;
+      }
+      &--header3
+      {
+        padding-top: .2rem;
+      }
+    }
+    .details
+    {
+      color: $color-black;
+      padding: 1rem;
+      line-height: 2rem;
+      &--bold
+      {
+        font-weight: $font-heavy;
+        padding-top: 5rem;
+      }
+      &--bold2
+      {
+        font-weight: $font-heavy;
+        padding-top: 3rem;
+      }
+      &--bold3
+      {
+        
+        font-weight: $font-heavy;
+        padding-top: 3rem;
+      }
+    }
+    .pricing
+    {
+      margin-top: 4rem;
+      margin-left: 1rem;
+      &--sup
+      {
+        font-size: $font-size-lg;
+        font-family: $font-primary;
+      }
+      
+      &--span
+      {
+        font-size: $font-size-lg;
+        font-family: $font-primary;
+      }
+      
+      &--sup2
+      {
+        font-size: $font-size-lg;
+        font-family: $font-primary;
+      }
+      &--sub
+      {
+        font-size: $font-size-sm;
+        margin-left: -3rem;
+      }
+    }
+    
+    // .button
+// {
+  //   margin-left: 5rem;
+  //   &--btn1
+  //   {
+    //     margin-top: 2rem;
+    //   }
+    //   &--btn2
+    //   {
+      //     margin-top: .1rem;
+      //   }
+      //   &--btn3
+      //   {
+        //     margin-top: 3rem;
+        //   }
+        //}
+  }
+      
+}

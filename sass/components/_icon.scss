@@ -1,0 +1,127 @@
+.icon {
+    display: block; // align-items: center;
+    // justify-content: center;
+    font-size: 2rem;
+    &--rounded {
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    &--fxsm {
+        font-size: 1rem;
+    }
+    &--fsm {
+        font-size: 1.5rem;
+    }
+    &--fmd {
+        font-size: 2rem;
+    }
+    &--flg {
+        font-size: 2.3rem;
+    }
+    &--fxg {
+        font-size: 2.8rem;
+    }
+    &--fxxg {
+        font-size: 4rem;
+    }
+    &--brxsm {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    &--brsm {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    &--brmd {
+        width: 3rem;
+        height: 3rem;
+    }
+    &--brlg {
+        width: 4.8em;
+        height: 4.8rem;
+    }
+    &--brxg {
+        min-width: 6rem;
+        height: 6rem;
+    }
+    &--brxxg {
+        width: 7rem;
+        height: 7rem;
+    }
+    &--clsecondry {
+        color: $color-secondary-dark;
+        &:visited {
+            color: $color-secondary-dark;
+        }
+    }
+    &--clwhite {
+        color: $color-white;
+        &:visited {
+            color: $color-white;
+        }
+    }
+    &--clprimary {
+        &--light {
+            color: $color-primary-light;
+            &:visited {
+                color: $color-primary-light;
+            }
+        }
+        &--dark {
+            color: $color-primary-dark;
+            &:visited {
+                color: $color-primary-dark;
+            }
+        }
+        &--darker {
+            color: $color-primary-darker;
+            &:visited {
+                color: $color-primary-darker;
+            }
+        }
+        &--darkest {
+            color: $color-primary-darkest;
+            &:visited {
+                color: $color-primary-darkest;
+            }
+        }
+        }
+        &--clgray {
+            &--light {
+                color: $color-gray-light;
+                &:visited {
+                    color: $color-gray-light;
+                }
+            }
+            &--dark {
+                color: $color-gray-dark;
+                &:visited {
+                    color: $color-gray-dark;
+                }
+            }
+            &--darker {
+                color: $color-gray-darker;
+                &:visited {
+                    color: $color-gray-darker;
+                }
+            }
+    }
+    &--bkwhite {
+        color: $color-gray-light;
+        background-color: $color-white;
+        border: 0.1rem solid $color-white;
+        &:visited {
+            color: $color-gray-light;
+        }
+    }
+    &--bkcyan {
+        color: $color-white;
+        background-color: $color-secondary-dark;
+        border: .1rem solid $color-secondary-dark;
+        &:visited {
+            color: $color-white;
+        }
+    }
+   
+}

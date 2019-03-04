@@ -1,0 +1,30 @@
+#question-component
+{
+    margin:0 auto;
+    text-align: center;
+
+
+    input{
+        margin:.4rem;
+
+    }
+    .radio-component{
+      
+        padding:$font-size-lg;
+        background-color:$color-primary-dark;
+     
+
+    }
+    .card-text{
+        font-weight:$font-medium;
+        font-size: $font-size-lg;
+       margin-bottom: 2rem;
+    }
+    .answer{
+        :hover{
+            background-color: $color-gray-light;
+        }
+    }
+    
+   
+}
